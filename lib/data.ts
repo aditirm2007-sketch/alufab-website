@@ -123,7 +123,7 @@ export const services = [
   "Quality Assurance and Final Project Handover",
 ];
 
-export type Client = { name: string; src: string };
+export type Client = { name: string; src?: string; dark?: boolean };
 
 export const clients: Client[] = [
   { name: "Brigade", src: "/images/clients/brigade.jpg" },
@@ -142,6 +142,22 @@ export const clients: Client[] = [
   { name: "Aratt", src: "/images/clients/aratt.png" },
   { name: "Tata Housing", src: "/images/clients/tata-housing.jpg" },
   { name: "Ramky Group", src: "/images/clients/ramky-group.jpg" },
+  { name: "Sattva Salarpuriya", src: "/images/clients/sattva-salarpuriya.png" },
+  { name: "Purvankara", src: "/images/clients/purvankara.svg" },
+  { name: "United Infrastructure" },
+  { name: "Ruchira", src: "/images/clients/ruchira.png" },
+  { name: "Design Arch Build" },
+  { name: "Interoll India Pvt. Ltd.", src: "/images/clients/interoll-india.svg" },
+  { name: "White Hill Properties" },
+  {
+    name: "Divyashree Infrastructure Pvt. Ltd.",
+    src: "/images/clients/divyashree-infrastructure.png",
+  },
+  { name: "MAIA", src: "/images/clients/maia.png", dark: true },
+  { name: "Shankara Foundations" },
+  { name: "V Care Hospital", src: "/images/clients/v-care-hospital.png" },
+  { name: "UNILET", src: "/images/clients/unilet.webp" },
+  { name: "Mahindra Smart Spaces" },
 ];
 
 export type ProjectCategory =
