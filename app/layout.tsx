@@ -16,7 +16,7 @@ const publicSans = Public_Sans({
   subsets: ["latin"],
 });
 
-const siteUrl = "https://alufab.co.in";
+const siteUrl = "https://www.alufab.co.in";
 const siteTitle = "Alufab Facade Solutions | Facade Glazing, U-PVC & Aluminium Fabrication";
 const siteDescription =
   "Alufab Facade Solutions — Bengaluru-based facade and architectural specialists in curtain walls, structural glazing, ACP cladding, uPVC & aluminium doors/windows, and MS fabrication since 2015.";

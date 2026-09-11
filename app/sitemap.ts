@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const baseUrl = "https://alufab.co.in";
+const baseUrl = "https://www.alufab.co.in";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = ["", "/about", "/gallery", "/contact"];
